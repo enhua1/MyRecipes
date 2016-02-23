@@ -5,6 +5,7 @@ class RecipeTest <ActiveSupport::TestCase
     def setup
         @chef = Chef.create(chefname: "bob", email: "bob@example.com")
         @recipe = @chef.recipes.build(name: "Chinese Chicken", summary: "best chinese chicken", description: "Hot oils and chives, add tomato sauce")
+        #only adding in sandbox mode
     end
     
     test "recipe should be valid" do

@@ -1,10 +1,16 @@
-testing specs for recipes
-name: string
-summary: text
-description: text
+Chefs:
 
--name must be present
--name must be between 5 Characters to 100 characters
--summary must be present
--summary must be between 10 characters and less than 150 characters
--description must be between 20 and 500 characters
+What we have already
+- Chef model and validations
+- chefs tables, columns and email
+
+What we need to do
+- Add passwords to the chefs table so chefs can be able to log in
+- Use email as log in credentials, since email is unique
+- Ability to register new chefs to use app
+- Ability to display chefs profile
+- Ability to list chefs using the app
+- Ability for chefs to log in and log out
+- Restrict actions like create recipe, edit recipe and like feature
+to logged in chefs only
+- Restricting edit of recipes by chefs who created the recipes
